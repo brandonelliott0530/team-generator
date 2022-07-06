@@ -7,16 +7,17 @@ class Employee {
     }
 
     renderBaseHtml(input) {
-        return `<div class="card">
-            <div class="card-body">
-                <div class="card-title">${this.name}</div>
-                <div class="card-subtitle">${this.position}</div>
-                <div class="card-text">
-                    <a href="mailto:${this.email}">Email </a>
-                    ${input}
-                </div>
+        return `     <div class="card m-5 border-dark rounded- mt-3 col-4">
+        <div class="card-body bg-warning">
+            <div class="card-title bg- text-dark fs-2 p-2 text-center border-bottom border-dark">Name:👋${this.name}</div>
+            <div class="card-subtitle fs-4 text-center">Position: 💪${this.position}</div>
+            <div class="card-text fs-4 text-center">
+                <a href="mailto:dani@danil.com">Email: ✉ ${this.email}</a>
+                <br>
+                ${input}
             </div>
-        </div>`;            
+        </div>
+    </div>`;            
     }
 
     renderSpecificHTML() {

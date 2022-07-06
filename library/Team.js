@@ -30,9 +30,14 @@ class Team {
               integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
               crossorigin="anonymous"
             />
-            <title>Document</title>
+            <title>My Team</title>
           </head>
-          <body>
+          <body class="bg-dark">
+          <div class="container-fluid bg-primary p-5 text-center">
+          <h1>My Team</h1>
+          <h3>Generated with node.js</h3>
+      </div>
+
           ${this.renderTeamHTML()}
           </body>
           </html>

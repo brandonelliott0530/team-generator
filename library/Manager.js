@@ -15,7 +15,7 @@ class Manager extends Employee {
     }
     
      renderSpecificHTML() {
-        const input = `${this.getName()} is currently working in office number ${this.getOfficeNumber()}`
+        const input = `<p class="mt-1 fs-4">${this.getName()} is currently working in office number ${this.getOfficeNumber()}</p>`
         return this.renderBaseHtml(input)
     }
 }

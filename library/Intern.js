@@ -17,7 +17,7 @@ class Intern extends Employee {
  }
 
     renderSpecificHTML() {
-        const input = `<p>${this.getName()} is currently attending classes at ${this.getSchool()}.</p>`
+        const input = `<p class="mt-1 fs-4">${this.getName()} is currently attending classes at ${this.getSchool()}.</p>`
         return this.renderBaseHtml(input)
     }
 

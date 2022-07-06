@@ -13,7 +13,7 @@ class Engineer extends Employee {
    }
 
     renderSpecificHTML() {
-        const input = `<a href="https://www.github.com/${this.getGithub}">GitHub</a>`
+        const input = `<a class ="mt-1 fs-4" href="https://github.com/${this.getGithub()}" target="_blank">Github: ${this.getGithub()}</a>`
         return this.renderBaseHtml(input)
     }
 }
