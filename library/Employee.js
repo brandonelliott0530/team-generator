@@ -1,3 +1,4 @@
+// This is the constructor for the employee class. It is the parent object to the other classes of employees. 
 class Employee {
     constructor(name, id, email, position) {
         this.name = name;

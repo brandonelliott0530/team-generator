@@ -24,7 +24,7 @@ class Intern extends Employee {
     return "Intern"
    }
 
-
+// Renders the sepecific HTML for the intern
     renderSpecificHTML() {
         const input = `<p class="mt-1 fs-4">${this.getName()} is currently attending classes at ${this.getSchool()}.</p>`
         return this.renderBaseHtml(input)

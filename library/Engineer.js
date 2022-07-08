@@ -20,7 +20,7 @@ class Engineer extends Employee {
     return "Engineer"
    }
 
-
+//    renders the specific HTML for the engineer class
     renderSpecificHTML() {
         const input = `<a class ="mt-1 fs-4" href="https://github.com/${this.getGithub()}" target="_blank">Github: ${this.getGithub()}</a>`
         return this.renderBaseHtml(input)

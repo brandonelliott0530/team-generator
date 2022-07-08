@@ -1,3 +1,4 @@
+// This tests the manager class to see if it is working properly. 
 const Manager = require("../library/Manager")
 
 describe("Manager class", () => {
@@ -7,6 +8,7 @@ describe("Manager class", () => {
             expect(manager.name).toEqual("Dani")
             expect(manager.id).toEqual(1234)
             expect(manager.email).toEqual("dani@gmail.com")
+            //Office number test that is unique to the manager class
             expect(manager.officeNumber).toEqual(1)
         })
     })
