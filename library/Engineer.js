@@ -12,6 +12,15 @@ class Engineer extends Employee {
     return this.gitHub
    }
 
+   getId() { 
+    return this.id 
+   }
+
+   getRole() {
+    return "Engineer"
+   }
+
+
     renderSpecificHTML() {
         const input = `<a class ="mt-1 fs-4" href="https://github.com/${this.getGithub()}" target="_blank">Github: ${this.getGithub()}</a>`
         return this.renderBaseHtml(input)

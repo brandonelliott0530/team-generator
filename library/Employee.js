@@ -6,6 +6,21 @@ class Employee {
         this.position = position;
     }
 
+    getRole() {
+        return "Employee";
+    }
+
+    getName() {
+        return this.name;
+    }
+
+    getId() {
+        return this.id;
+    }
+
+    getEmail() {
+        return this.email;
+    }
     renderBaseHtml(input) {
         return `     <div class="card m-5 border-dark rounded- mt-3 col-4">
         <div class="card-body bg-warning">

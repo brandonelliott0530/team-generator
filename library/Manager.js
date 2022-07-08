@@ -13,6 +13,14 @@ class Manager extends Employee {
     getName() {
         return this.name
     }
+
+    getId() {
+        return this.id
+    }
+
+    getRole() {
+        return "Manager"
+    }
     
      renderSpecificHTML() {
         const input = `<p class="mt-1 fs-4">${this.getName()} is currently working in office number ${this.getOfficeNumber()}</p>`
