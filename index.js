@@ -20,7 +20,7 @@ function getNext(option) {
     }
     if(option === "done") {
         team.saveFile()
-        console.log(team)
+       
     }
 }
 
