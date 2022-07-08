@@ -64,7 +64,7 @@ Please insure that third party cookies are enabled so the video can be played wh
 
 ## GitHub link
 ---
-[GitHub Repo](https://github.com/brandonelliott0530/team-generator)
+[GitHub Repo](<a target="_blank" href=https://github.com/brandonelliott0530/team-generator>)
 
 ## Contact Me
 ---
